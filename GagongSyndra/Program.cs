@@ -193,10 +193,7 @@ namespace GagongSyndra
             Orbwalking.BeforeAttack += Orbwalking_BeforeAttack;
 
             Game.PrintChat("Gagong Syndra Loaded!");
-        }
-
-        private static void playSound(SoundPlayer sound)
-        {
+            
             try
             {
                 sound.Play();
