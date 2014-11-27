@@ -194,6 +194,12 @@ namespace GagongSyndra
 
             Game.PrintChat("Gagong Syndra Loaded!");
             
+            }
+-
+-        private static void playSound(SoundPlayer sound)
+
+-           {
+            
             try
             {
                 sound.Play();
